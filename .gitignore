@@ -1,0 +1,9 @@
+**/node_modules/
+**/build/
+**/out/
+source-private/
+previews/
+*.log
+.env*
+!*.example
+edit-motion/public/characters/*.png

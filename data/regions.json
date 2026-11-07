@@ -1,0 +1,14 @@
+[
+  {"name":"여의도","orders":420,"renewal":40,"cause":"","code":"11190"},
+  {"name":"강남","orders":310,"renewal":6,"cause":"쿠폰 소진 후 해지 213건","code":"11230"},
+  {"name":"판교","orders":38,"renewal":9,"cause":"사내식당 밀집","code":"31023"},
+  {"name":"하남·구리","orders":52,"renewal":11,"cause":"키친에서 40분"},
+  {"name":"부산","orders":61,"renewal":8,"cause":"예측 정확도 48%"},
+  {"name":"송도","orders":44,"renewal":10,"cause":"점심 기사 부족"},
+  {"name":"일산","orders":41,"renewal":12,"cause":"주문 100건 미만"},
+  {"name":"수원","orders":57,"renewal":10,"cause":"주문 100건 미만"},
+  {"name":"광화문","orders":85,"renewal":14,"cause":"주문 100건 미만"},
+  {"name":"대전","orders":49,"renewal":9,"cause":"주문 100건 미만"},
+  {"name":"대구","orders":46,"renewal":8,"cause":"주문 100건 미만"},
+  {"name":"광주","orders":39,"renewal":7,"cause":"주문 100건 미만"}
+]
