@@ -1,0 +1,47 @@
+{
+  "dashboard": {
+    "title": "AI 점심 구독 · 권역 현황",
+    "ordersLabel": "일 주문",
+    "renewalLabel": "재구독률",
+    "dates": [
+      "출시 D+3",
+      "출시 D+3",
+      "출시 D+3",
+      "출시 D+3",
+      "출시 D+3",
+      "출시 D+14"
+    ],
+    "activeByState": [
+      [],
+      ["판교"],
+      ["판교", "하남·구리"],
+      ["판교", "하남·구리", "부산"],
+      ["판교", "하남·구리", "부산", "송도"],
+      [
+        "강남",
+        "판교",
+        "하남·구리",
+        "부산",
+        "송도",
+        "일산",
+        "수원",
+        "광화문",
+        "대전",
+        "대구",
+        "광주"
+      ]
+    ],
+    "successRegion": "여의도",
+    "renewalColorBasis": "재구독률 데이터의 0/25/50/75/100 분위수 사이를 보간하는 상대 그라데이션. 성과 판정 임계값이 아님.",
+    "renewalGradient": {
+      "method": "distribution-quantiles",
+      "colors": ["#F2555A", "#F49A55", "#E6C95D", "#A7CE6A", "#55BF96"]
+    }
+  },
+  "event": {
+    "serviceLine": "AI 점심 구독,",
+    "launchLead": "오늘 전국",
+    "launchEmphasis": "12개 권역",
+    "launchTail": "동시 출시"
+  }
+}

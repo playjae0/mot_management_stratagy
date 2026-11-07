@@ -1,0 +1,127 @@
+html,
+body {
+  cursor: auto;
+}
+#stage {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+#canvas {
+  cursor: auto;
+}
+#controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: #111827;
+  color: #e2e8f0;
+  border-top: 1px solid #475569;
+  padding: 12px 18px;
+  font:
+    14px/1.45 Pretendard,
+    "Malgun Gothic",
+    sans-serif;
+  max-height: 42vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.control-main,
+.control-bottom {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.control-bottom {
+  margin-top: 10px;
+  border-top: 1px solid #334155;
+  padding-top: 10px;
+}
+.control-main label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+}
+#controls select,
+#controls button {
+  font: inherit;
+  min-height: 36px;
+  border-radius: 6px;
+  border: 1px solid #526078;
+  color: #f8fafc;
+  background: #263348;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+#controls select {
+  max-width: calc(100vw - 90px);
+  min-width: 270px;
+}
+#controls button:hover:not(:disabled) {
+  background: #3b4c65;
+}
+#controls button:focus-visible,
+#controls select:focus-visible {
+  outline: 3px solid #ffc53d;
+  outline-offset: 2px;
+}
+#controls button:disabled {
+  opacity: 0.38;
+  cursor: default;
+}
+#controls button[aria-pressed="true"] {
+  background: #8b1e3f;
+  border-color: #d56688;
+}
+#controls .shoot-button {
+  background: #8b1e3f;
+  border-color: #c55177;
+  margin-left: auto;
+  font-weight: 700;
+}
+#state-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+#current-status {
+  color: #d6e0ef;
+  font-weight: 650;
+  flex: 1;
+}
+#control-help {
+  font-size: 12px;
+  color: #9eacc1;
+  margin-top: 8px;
+}
+body.shooting #controls {
+  display: none;
+}
+body.shooting,
+body.shooting * {
+  cursor: none !important;
+}
+@media (max-width: 700px) {
+  #controls {
+    padding: 9px 12px;
+  }
+  .control-main label {
+    flex: 1;
+  }
+  #controls select {
+    min-width: 0;
+    flex: 1;
+  }
+  #controls .shoot-button {
+    margin-left: 0;
+  }
+  #current-status {
+    flex-basis: 100%;
+  }
+}
