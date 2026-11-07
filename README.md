@@ -1,3 +1,5 @@
+# mot_management_stratagy
+
 # 굿잇츠 · 전략 참견 시점: 그때 그 회의
 
 고려대 MOT 경영전략 9조 기말 영상의 촬영 화면과 Remotion 제작 소스.
