@@ -1,0 +1,128 @@
+{
+  "1": [
+    {
+      "id": "H1-02",
+      "name": "권역 현황판",
+      "kind": "dashboard",
+      "states": [
+        "전체 중립",
+        "판교",
+        "하남·구리 추가",
+        "부산 추가",
+        "송도 추가",
+        "최종 현황"
+      ],
+      "animation": "상태 변경 0.5초 강조",
+      "duration": 500
+    },
+    {
+      "id": "H1-03",
+      "name": "행사 키비주얼",
+      "kind": "event",
+      "states": ["출시 행사"],
+      "animation": "정지 화면"
+    }
+  ],
+  "2": [
+    {
+      "id": "H2-02",
+      "name": "리소스 배분 슬라이드",
+      "kind": "resource",
+      "states": ["80/20 배분"],
+      "animation": "막대 채우기",
+      "duration": 1500
+    },
+    {
+      "id": "H2-03",
+      "name": "앱 리뷰 화면",
+      "kind": "reviews",
+      "states": ["굿잇츠 리뷰", "편의점 리뷰"],
+      "animation": "리뷰 순차 등장",
+      "duration": 1500
+    },
+    {
+      "id": "H2-04",
+      "name": "모델 튜닝 화면",
+      "kind": "tuning",
+      "states": ["실험 #47"],
+      "animation": "94.0% → 95.1%",
+      "duration": 1500
+    },
+    {
+      "id": "H2-05",
+      "name": "배차 대기열 / 비교 카드",
+      "kind": "queue",
+      "states": ["배차 대기열", "기존 배달과 비교"],
+      "animation": "막대 / 문구 순차 등장",
+      "duration": 2000
+    },
+    {
+      "id": "H2-06",
+      "name": "기사 앱 배차 화면",
+      "kind": "rider",
+      "states": ["오늘 배차"],
+      "animation": "정지 화면"
+    },
+    {
+      "id": "H2-07",
+      "name": "편의점 진입 뉴스",
+      "kind": "news",
+      "states": ["폰 뉴스 알림", "기사 전체 화면"],
+      "animation": "알림 배너 등장",
+      "animatedStates": [0],
+      "duration": 1500
+    }
+  ],
+  "3": [
+    {
+      "id": "H3-02",
+      "name": "원가 엑셀",
+      "kind": "cost",
+      "states": ["가격 산정"],
+      "animation": "정지 화면"
+    },
+    {
+      "id": "H3-04",
+      "name": "재구독률 그래프",
+      "kind": "renewal",
+      "states": ["2주 기준선", "4주까지 / 가격 인하", "5주 / 첫 주 무료"],
+      "animation": "선 연장 0.8초",
+      "duration": 800
+    },
+    {
+      "id": "H3-05",
+      "name": "앱 배너",
+      "kind": "promo",
+      "states": ["1만 5천 원", "첫 주 무료"],
+      "animation": "정지 화면"
+    }
+  ],
+  "4": [
+    {
+      "id": "H4-03",
+      "name": "광고 집행 현황",
+      "kind": "ads",
+      "states": ["4주 차 현황"],
+      "animation": "정지 화면"
+    }
+  ],
+  "5": [
+    {
+      "id": "H5-01",
+      "name": "고객의 소리",
+      "kind": "voc",
+      "states": ["해지 설문", "상담 녹음 목록", "#0217 재생", "#0342 재생"],
+      "animation": "파형과 재생 바",
+      "animatedStates": [2, 3],
+      "duration": 38000
+    },
+    {
+      "id": "H5-02",
+      "name": "단어 빈도",
+      "kind": "frequency",
+      "states": ["해지 사유 분석"],
+      "animation": "막대 순차 등장",
+      "duration": 1500
+    }
+  ]
+}
